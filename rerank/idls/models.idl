@@ -1,0 +1,24 @@
+/**
+ * Thrift files that defines indexer dto classes
+ */
+namespace java com.upwork.rerank.thrift
+
+/**
+ * An union data structure to hold a java object of any of the type String, Long, Double or Boolean. This is useful to
+ deal with the frequently occurring case of features with different data types for the same model.
+ */
+union TFeatureValue{
+ 1: string                            stringVal,
+ 2: i64                               intVal,
+ 3: double                            doubleVal,
+ 4: bool                              boolVal
+}
+
+/**
+ * A single instance of data. It is identified by an id of data type Long and contains a
+ mapping of feature name to its value
+ */
+struct TInstance{
+ 1: i64                               instanceId,
+ 2: map<string, TFeatureValue>        features
+}

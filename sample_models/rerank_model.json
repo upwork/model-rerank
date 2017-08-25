@@ -1,0 +1,35 @@
+{
+  "features": [
+    {
+      "name": "a",
+      "dataType": "numeric"
+    },
+    {
+      "name": "b",
+      "dataType": "numeric"
+    },
+    {
+      "name": "c",
+      "dataType": "numeric"
+    },
+    {
+      "name": "d",
+      "dataType": "numeric"
+    },
+    {
+      "name": "e",
+      "dataType": "numeric"
+    },
+    {
+      "name": "f",
+      "dataType": "nominal",
+      "values": [
+        "0",
+        "1"
+      ],
+      "class": true
+    }
+  ],
+  "name": "rerank_model",
+  "shortName": "rerank_model"
+}
