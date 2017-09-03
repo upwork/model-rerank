@@ -160,8 +160,8 @@ custom configuration e.g. data source specifications.
 1. The RerankLib can load multiple models and caches them as per the arguments supplied while creating it. It uses an LRU cache internally.
 2. If the class/target data type is a "numeric" then a classLabel is not required to be supplied to rerank call.
 
-#### Point of Contact
-Suggestions and comments are most welcome. Please ping me at [atpuga(reverse spelled) at upwork.com]
+#### License
+MIT
 
 [configgen]:./rerank/src/main/java/com/upwork/rerank/apputils/JsonConfigGenerator.java
 [defaultConfig]:./rerank/src/main/resources/config.properties

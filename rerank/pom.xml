@@ -17,14 +17,9 @@
 
 
   <licenses>
-    <!--<license>-->
-    <!--<name>Apache License, Version 2.0</name>-->
-    <!--<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>-->
-    <!--<distribution>repo</distribution>-->
-    <!--</license>-->
     <license>
-      <name>GNU General Public License Version 3(GPLv3)</name>
-      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
