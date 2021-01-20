@@ -55,7 +55,7 @@
     <jacoco.ut.execution.data.file>${project.build.directory}/coverage-reports/jacoco-ut.exec
     </jacoco.ut.execution.data.file>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <jackson.version>2.6.3</jackson.version>
+    <jackson.version>2.12.1</jackson.version>
     <guava.version>19.0</guava.version>
     <pojomatic.version>1.0</pojomatic.version>
     <weka.version>3.8.0</weka.version>
