@@ -48,7 +48,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <metrics.version>3.1.0</metrics.version>
-    <thrift.version>0.9.1</thrift.version>
+    <thrift.version>0.14.0</thrift.version>
     <jacoco.maven.plugin.version>0.7.2.201409121644</jacoco.maven.plugin.version>
     <jacoco.it.execution.data.file>${project.build.directory}/coverage-reports/jacoco-it.exec
     </jacoco.it.execution.data.file>
